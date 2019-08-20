@@ -1,0 +1,56 @@
+body {
+  background-image: url("cafe.gif");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 100%;
+}
+
+form {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+label {
+	color: #93C54B;
+	text-shadow: 
+	#000 0px 0px 2px,   
+	#000 0px 0px 2px,   
+	#000 0px 0px 2px,
+    #000 0px 0px 2px,   
+    #000 0px 0px 2px,   
+    #000 0px 0px 2px;
+}
+
+h3 {
+	color: #93C54B;
+	text-shadow: 
+	#000 0px 0px 2px,   
+	#000 0px 0px 2px,   
+	#000 0px 0px 2px,
+    #000 0px 0px 2px,   
+    #000 0px 0px 2px,   
+    #000 0px 0px 2px;
+}
+
+#emailHelp {
+	color: #93C54B;
+	text-shadow: 
+	#000 0px 0px 2px,   
+	#000 0px 0px 2px,   
+	#000 0px 0px 2px,
+    #000 0px 0px 2px,   
+    #000 0px 0px 2px,   
+    #000 0px 0px 2px;	
+}
+
+#inputText {
+	color: #93C54B;
+	text-shadow: 
+	#000 0px 0px 2px,   
+	#000 0px 0px 2px,   
+	#000 0px 0px 2px,
+    #000 0px 0px 2px,   
+    #000 0px 0px 2px,   
+    #000 0px 0px 2px;
+}
