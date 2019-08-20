@@ -33,6 +33,17 @@ h3 {
     #000 0px 0px 2px;
 }
 
+h4 {
+	color: #93C54B;
+	text-shadow: 
+	#000 0px 0px 2px,   
+	#000 0px 0px 2px,   
+	#000 0px 0px 2px,
+    #000 0px 0px 2px,   
+    #000 0px 0px 2px,   
+    #000 0px 0px 2px;
+}
+
 #emailHelp {
 	color: #93C54B;
 	text-shadow: 

@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-	pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <!DOCTYPE html>
 <html>
@@ -8,7 +8,7 @@
 <link
 	href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/sandstone/bootstrap.min.css"
 	rel="stylesheet">
-<meta charset="ISO-8859-1">
+<meta charset="UTF-8">
 <title>Registration Form</title>
 </head>
 <body>
@@ -23,7 +23,7 @@
      <label class="col-form-label" for="inputDefault">Age</label>
   <input type="number" class="form-control" placeholder="Enter your age" name="personAge"> <br>
     <label for="emailInput">Email address</label>
-      <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+      <input type="email" class="form-control" name="emailInput" aria-describedby="emailHelp" placeholder="Enter email">
       <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
 
 	<br>

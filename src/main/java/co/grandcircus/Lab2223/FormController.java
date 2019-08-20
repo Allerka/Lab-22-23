@@ -14,10 +14,10 @@ public class FormController {
 	@Autowired
 	private Person personFromForm;
 	
-	@RequestMapping("submission")
+	@RequestMapping("/submission")
 	public ModelAndView submitForm(@RequestParam("firstName") String fName, 
 			@RequestParam("lastName") String lName, @RequestParam("personAge") int pAge,
-			@RequestParam("email") String formEmail, @RequestParam("button") String triforce,
+			@RequestParam("emailInput") String formEmail, @RequestParam("button") String triforce,
 			@RequestParam("drink") String[] drinkChoices, @RequestParam("news") boolean newsletter) {
 		personFromForm.setFirstName(fName);
 		personFromForm.setLastName(lName);
@@ -36,7 +36,7 @@ public class FormController {
 		personInfo.addObject("age",
 				personFromForm.getPersonAge());
 		
-		personInfo.addObject("email",
+		personInfo.addObject("emailInput",
 			personFromForm.getEmail());
 		
 		personInfo.addObject("button",
